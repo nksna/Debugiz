@@ -1,0 +1,76 @@
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('src/assets/images/nature/1900857.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.login-form {
+    background-color: #ffffff;
+    border: 2px solid #bd2222; /* Add border style */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Increase padding for spacing */
+}
+
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+}
+
+.checkbox-label {
+    color: #555;
+    font-size: 14px;
+}
+
+.terms-link {
+    color: #bd2222;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.terms-link:hover {
+    color: #a21f1f;
+}
+
+.btn-primary {
+    background-color: #bd2222;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #a21f1f;
+}
